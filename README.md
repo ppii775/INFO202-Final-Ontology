@@ -16,8 +16,8 @@
 
 - Start a new project and a new local DBMS in Neo4j Desktop.
 - Open the new DBMS in Neo4j Browser.
-- Copy and paste the Cypher codes in file 01-ontology-creation.cypher into Neo4j Browser into the code block and click play to create the ontology.
-- If desired, copy and paste the Cypher codes in file 02-iep-goal-relation.cypher to a new code block and click play to add relationships between all learning goals and the IEP node at once. Technically, all learning goals are part of the IEPs, which would create 70+ relationships at once and they could look messy. These codes are separated for clarity reasons.
+- Copy and paste the Cypher codes in file [01-ontology-creation.cypher](https://github.com/ppii775/INFO202-Final-Ontology/blob/2effd848ecac05a1c77e33aa05a9fde27c96e3bb/01-ontology-creation.cypher) into Neo4j Browser into the code block and click play to create the ontology.
+- If desired, copy and paste the Cypher codes in file [02-iep-goal-relation.cypher](https://github.com/ppii775/INFO202-Final-Ontology/blob/2effd848ecac05a1c77e33aa05a9fde27c96e3bb/02-iep-goal-relation.cypher) to a new code block and click play to add relationships between all learning goals and the IEP node at once. Technically, all learning goals are part of the IEPs, which would create 70+ relationships at once and they could look messy. These codes are separated for clarity reasons.
 - After generating the ontology, users are able to examine specific nodes and relationships through Cypher query language or manipulating the visual graph in Neo4j.
 
 </p>
